@@ -22,7 +22,7 @@ const app = express();
 app.use(helmet());
 app.use(cors({
     origin: [
-        "https://www.qutufeg.com",
+        "https://qutufeg.com",
         "http://localhost:5173",
         "http://localhost:5174"
     ],
